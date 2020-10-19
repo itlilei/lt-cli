@@ -3,7 +3,7 @@ module.exports = {
     /**
      * 入口文件
      */
-        entry: 'jsbundles/JDReactGrabTrain.web.js',
+        entry: 'jsbundles/$$programName.web.js',
         /**
      * 编译时静态资源的地址，可以是CDN
      */
@@ -38,7 +38,7 @@ module.exports = {
     },
 
     dev: {
-        entry: 'jsbundles/JDReactGrabTrain.web.js',
+        entry: 'jsbundles/$$programName.web.js',
         publicPath: '/',
         assetsRoot: 'build-web',
         src: 'jsbundles',
